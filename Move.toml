@@ -1,0 +1,16 @@
+[package]
+name = "LEADERBOARD-APTOS"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hema_addr = "54420b1778773b219d76f1ec97a83c8afc2f655a99fb94184a309c4694e2bf6b"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
